@@ -1,0 +1,39 @@
+body{
+    font-family: Arial;
+    background-color: pink;
+}
+
+/* Main */
+h1, p{
+    margin-top: 20px;
+    text-align: center;
+}
+p{
+    font-size: 18px;
+}
+
+/* Container */
+.container{
+    background-color: rgb(255, 255, 255, .5);
+    margin: 0 auto;
+    max-width: 1350px;
+}
+
+/* Flex Section */
+.flex-block{
+    display: flex;
+    justify-content: space-evenly;
+}
+.flex-item{
+    margin: 17px 50px;
+}
+
+/* Border */
+.border{
+    border: solid 4px red;
+    padding: 0 25px;
+    margin: 15px auto;
+}
+.border-top{
+    border-top: solid 3px rgb(139, 139, 139, .3);
+}
